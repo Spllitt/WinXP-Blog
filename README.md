@@ -6,3 +6,5 @@ I used [Lucas Melo's](https://github.com/lucasgmelo/xp) project as a reference f
 ## About it
 
 The idea is to use the 2000's era style and using it on the pages, with interactive stuff, like you are using a computer. It's currently made on just HTML, CSS and Java.
+
+<img width="1912" height="898" alt="image" src="https://github.com/user-attachments/assets/8b6367f5-108e-451c-ad1d-39927bfae3ec" />
