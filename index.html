@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter</title>
+    <link rel="stylesheet" href="MEpage.css">
+    <script type="text/javascript" src="logins.js" defer></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <img src="images/winLOGO2.png" class="LOGOwin">
+    <div id="login-incial">
+    <div class="bg-login">
+    <h1>To begin, put your username</h1>
+    <p id="error-message"></p>
+    <form id="form">
+        <div>
+            <input required type="text" name="username" id="username-input" placeholder="" class="box">
+        </div>
+        <button class="enter"> <img src="images/enterICON.png" alt=""></button>
+        <img src="images/blueBAR.png" class="BLUEbar">
+    </form>
+    <div class="barra-incial"></div>
+    <div class="barra-incial2"></div>
+    <img src="images/PFPplaceholder.png" class="pfp">
+    </div>
+    </div>
+    </div>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        setTimeout(function(){
+        loader.style.display = "none";
+    }, 3000);
+});
+</script>
+</body>
+</html>
