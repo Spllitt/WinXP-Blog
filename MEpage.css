@@ -1,3 +1,7 @@
+@media screen and (width >= 900px) {
+    
+}
+
 html, body{
     width: 100%;
     height: 100%;
@@ -22,12 +26,7 @@ h1{
     font-size: 30px;
 }
 
-.bg-login h1{ 
-    position: relative; 
-    z-index: 3; 
-} 
-
-.bg-login form{ 
+.bg-login h1, form{ 
     position: relative; 
     z-index: 3; 
 }
@@ -89,7 +88,6 @@ h1{
     display: block;
     max-width: 150%;
     max-height: 150%;
-    z-index: 999;
     position: absolute;
     bottom: 10%;
     left: 10%;
@@ -133,11 +131,28 @@ h1{
     left: 1020px;
 }
 
-.pfp{
-    position: absolute;
-    top: 302px;
-    right: 580px;
-    width: 100px;
-    height: 100px;
-    z-index: 99;
+@media (max-width: 1400px){
+    #login-incial {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .LOGOwin {
+        left: 40%;
+    }
+
+    h1 {
+        left: 50;
+        top: 80;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        font-size: clamp(18px, 2vw, 30px);
+    }
+
+    #form {
+        right: 90%;
+        top: 80;
+        transform: translateX(-50%);
+    }
 }
