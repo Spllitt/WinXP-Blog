@@ -10,29 +10,31 @@
 <body>
     <div class="container">
     <div id="preloader"></div>
-    <img src="images/winLOGO2.png" class="LOGOwin">
-    <div id="login-incial">
+    <main id="login-incial">
     <div class="bg-login">
+    <header class="welcome"> <img src="images/winLOGO2.png" class="LOGOwin">
     <h1>To begin, put your username</h1>
-    <p id="error-message"></p>
+    </header>
+    <section class="login">
     <form id="form">
-        <div>
-            <input required type="text" name="username" id="username-input" placeholder="" class="box">
-        </div>
-        <button class="enter"> <img src="images/enterICON.png" alt=""></button>
-        <img src="images/blueBAR.png" class="BLUEbar">
+    <img src="images/blueBAR.png" class="BLUEbar" alt="" aria-hidden="true">
+    <img src="images/PFPplaceholder.png" class="pfp" alt="User profile">
+        <div class="loginCTRL"> <input required type="text" name="username" id="username-input" class="box">
+        <button type="submit" class="enter"> <img src="images/enterICON.png"></button>
+    </div>
     </form>
-    <div class="barra-incial"></div>
-    <div class="barra-incial2"></div>
+    </section>
     </div>
-    </div>
+        <div class="barra-incial" aria-hidden="true"></div>
+        <div class="barra-incial2" aria-hidden="true"></div>
+    </main>
     </div>
 <script>
     var loader = document.getElementById("preloader");
     window.addEventListener("load", function(){
         setTimeout(function(){
         loader.style.display = "none";
-    }, 0);
+    }, 3000);
 });
 </script>
 </body>
