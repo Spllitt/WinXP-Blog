@@ -154,5 +154,10 @@ h1{
         right: 90%;
         top: 80;
         transform: translateX(-50%);
+        .BLUEbar{
+            right: 90%;
+            top: 80;
+            transform: translateX(-50%);
+        }
     }
 }
